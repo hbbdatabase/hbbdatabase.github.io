@@ -17,7 +17,7 @@ const init_phones = ["Bad Guy 2022","IEF Comp"],             // Optional. Which 
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "",                          // Optional. Watermark appears behind graphs
       watermark_image_url = "img/BGF.png",              // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Test",              // Optional. Appended to the page title if share URLs are enabled
+      page_title = "HBB Database",              // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = true,                           // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -226,7 +226,7 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "Test",
+let headerLogoText = "HawaiiBadBoy",
     headerLogoImgUrl = "",
     headerLinks = [
     {
