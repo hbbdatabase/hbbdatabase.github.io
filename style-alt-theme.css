@@ -1,0 +1,50 @@
+
+/* Primary color theme */
+:root {
+    --hue: 198;
+    
+    --accent-color: hsl(var(--hue), 50%, 40%);
+    --accent-color-contrast: hsl(var(--hue), 20%, 40%);
+    
+    --background-color: hsl(var(--hue), 10%, 4%);
+    --background-color-contrast: hsl(var(--hue), 10%, 10%);
+    --background-color-contrast-more: hsl(var(--hue), 10%, 25%);
+    --background-color-graph: hsl(var(--hue), 10%, 8%);
+    
+    --background-color-inputs: hsl(var(--hue), 5%, 25%);
+    
+    --font-color-primary: hsl(var(--hue), 5%, 90%);
+    --font-color-secondary: hsl(var(--hue), 5%, 0%);
+    --font-color-inputs: hsl(var(--hue), 5%, 60%);
+    
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+    
+    --scrollbar-color: 0,0,0;
+    --scrollbar-accent: 255,255,255;
+        
+    --header-color: hsl(215, 20%, 10%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
+    --svg-filter: invert(1.0);
+}
+
+/***** Squiglink target styles *****/
+
+path[data-phone-name="IEF Comp Target"] {
+    display: none;
+}
+
+g.curves-g path:nth-child(2 of .target:not([data-phone-name="IEF Comp Target"])) {
+    stroke-dasharray: 6, 6 !important;
+    stroke-width: 1.5;
+    opacity: 0.5;
+}
+
+g.curves-g path:nth-child(3 of .target:not([data-phone-name="IEF Comp Target"])) {
+    stroke-dasharray: 3, 3 !important;
+    stroke-width: 1.5;
+    opacity: 0.5;
+}
