@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Bad Guy 2022 Target","IEF Comp Target"],             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Bad Guy 2022","IEF Comp"],             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
 	  DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
