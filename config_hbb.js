@@ -226,7 +226,7 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "HawaiiBadBoy",
+let headerLogoText = "Test",
     headerLogoImgUrl = "",
     headerLinks = [
     {
