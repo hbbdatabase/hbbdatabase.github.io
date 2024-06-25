@@ -226,8 +226,8 @@ setupGraphAnalytics();
 
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "",
-    headerLogoImgUrl = "https://squig.link/squiglink-logo-w.png",
+let headerLogoText = "HawaiiBadBoy",
+    headerLogoImgUrl = "",
     headerLinks = [
     {
         name: "Top 10 List",
