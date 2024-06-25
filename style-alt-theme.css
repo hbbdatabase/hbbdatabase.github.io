@@ -1,50 +1,58 @@
-
 /* Primary color theme */
 :root {
-    --hue: 198;
+    --accent-color: hsl(29, 80%, 55%);
+    --accent-color-contrast: hsl(32, 85%, 90%);
+
+    --background-color: hsl(223, 25%, 10%);
+    --background-color-contrast: hsl(223, 25%, 10%);
+    --background-color-contrast-more: hsl(0, 0%, 29%);
+    --background-color-graph: hsl(234, 14%, 7%);
+
+    --background-color-inputs: hsl(234, 14%, 7%);
+
+    --font-color-primary: hsl(32, 85%, 90%);
+    --font-color-secondary: hsl(0, 0%, 0%);
+    --font-color-inputs: hsl(0, 0%, 100%);
+
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+
+    --scrollbar-color: 0,0,0;
+    --scrollbar-accent: 255,255,255;
+
+    --header-color: hsl(223, 25%, 10%);
+    --header-links-color: hsl(45, 85%, 60%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
     
-    --accent-color: hsl(var(--hue), 50%, 40%);
-    --accent-color-contrast: hsl(var(--hue), 20%, 40%);
+    --logo-filter: none;
+    --svg-filter: invert(0);
+}
+
+body.dark-mode {
+    --accent-color: hsl(223, 25%, 10%);
+    --accent-color-contrast: hsl(223, 12%, 42%);
+
+    --background-color: hsl(29, 73%, 93%);
+    --background-color-contrast: hsl(0, 0%, 90%);
+    --background-color-contrast-more: hsl(223, 12%, 58%);
+    --background-color-graph: hsl(29, 100%, 96%);
     
-    --background-color: hsl(var(--hue), 10%, 4%);
-    --background-color-contrast: hsl(var(--hue), 10%, 10%);
-    --background-color-contrast-more: hsl(var(--hue), 10%, 25%);
-    --background-color-graph: hsl(var(--hue), 10%, 8%);
+    --background-color-inputs: hsl(29, 100%, 97%);
     
-    --background-color-inputs: hsl(var(--hue), 5%, 25%);
-    
-    --font-color-primary: hsl(var(--hue), 5%, 90%);
-    --font-color-secondary: hsl(var(--hue), 5%, 0%);
-    --font-color-inputs: hsl(var(--hue), 5%, 60%);
+    --font-color-primary: hsl(223, 25%, 10%);
+    --font-color-secondary: hsl(29, 100%, 100%);
+    --font-color-inputs: hsl(0, 0%, 0%);
     
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: monospace;
     
-    --scrollbar-color: 0,0,0;
-    --scrollbar-accent: 255,255,255;
+    --scrollbar-color: 255,255,255;
+    --scrollbar-accent: 0,0,0;
         
-    --header-color: hsl(215, 20%, 10%);
-    --header-links-color: hsl(0, 0%, 100%);
-    --header-menu-icon-color: hsl(0, 0%, 100%);
+    --header-color: hsl(223, 25%, 10%);
+    --header-links-color: hsl(0, 0%, 0%);
+    --header-menu-icon-color: hsl(0, 0%, 0%);
     
     --logo-filter: none;
-    --svg-filter: invert(1.0);
-}
-
-/***** Squiglink target styles *****/
-
-path[data-phone-name="IEF Comp Target"] {
-    display: none;
-}
-
-g.curves-g path:nth-child(2 of .target:not([data-phone-name="IEF Comp Target"])) {
-    stroke-dasharray: 6, 6 !important;
-    stroke-width: 1.5;
-    opacity: 0.5;
-}
-
-g.curves-g path:nth-child(3 of .target:not([data-phone-name="IEF Comp Target"])) {
-    stroke-dasharray: 3, 3 !important;
-    stroke-width: 1.5;
-    opacity: 0.5;
+    --svg-filter: invert(0);
 }
