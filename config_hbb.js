@@ -146,15 +146,15 @@ const
     widgets = `
         <div class="accessories-widgets">
             <div class="widget">
-                <a href="https://www.youtube.com/channel/UCIw1An1OUp4XIv_h6si2etQ"><img width="200" src="youtube.png"/></a>
+                <a href="https://www.youtube.com/channel/UCIw1An1OUp4XIv_h6si2etQ"><img width="200" src="img/youtube.png"/></a>
             </div>
 
             <div class="widget">
-                <a href="https://docs.google.com/spreadsheets/d/1TH9_bqUq1vANsFiXVbVZ6w8kVA9C3DkknnMGyIcKE7M/edit#gid=0"><img width="200" src="top10.png"/></a>
+                <a href="https://docs.google.com/spreadsheets/d/1TH9_bqUq1vANsFiXVbVZ6w8kVA9C3DkknnMGyIcKE7M/edit#gid=0"><img width="200" src="img/top10.png"/></a>
             </div>
 
             <div class="widget">
-                <a href="https://twitter.com/HawaiibadboyB"><img width="200" src="twitter.png"/></a>
+                <a href="https://twitter.com/HawaiibadboyB"><img width="200" src="img/twitter.png"/></a>
             </div>
         </div>
 
