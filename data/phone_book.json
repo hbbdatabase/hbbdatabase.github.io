@@ -388,9 +388,9 @@
 	   {
         "name": "CP74E",
         "file": "Can 74"
-      },
+      }
     ]
-  }
+  },
   {
     "name": "CCA",
     "phones": [
