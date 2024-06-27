@@ -380,7 +380,18 @@
     "phones": [
       {
         "name": "CP622b",
+
         "file": "Canpur Cp622b"
+		
+      },
+	   {
+
+        "file": "Canpur Cp622b"		
+      },	  
+      {
+
+        "name": "CP74E",
+        "file": "Can 74"
       }
     ]
   },
