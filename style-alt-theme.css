@@ -14,8 +14,8 @@
 	--font-color-secondary: hsl(218.08deg 90.64% 85.63%);
 	--font-color-inputs: hsl(0deg 0% 100%);
 
-	--font-primary: 'Open Sans', sans-serif;
-	--font-secondary: monospace;
+	--font-primary: 'Roboto', sans-serif;
+	--font-secondary: Nunito;
 
 	--scrollbar-color: 0, 0, 0;
 	--scrollbar-accent: 255, 255, 255;
