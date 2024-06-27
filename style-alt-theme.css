@@ -1,18 +1,18 @@
 /* Primary color theme */
 :root {
-	-–accent-color: hsl(202, 100%, 84%);
-	-–accent-color-contrast: hsl(198, 20%, 100%);
+	-–accent-color: hsl(202deg 100% 85.77%);
+	-–accent-color-contrast: hsl(0deg 0% 100%);
 
-	--background-color: hsl(198, 10%, 6%);
+	--background-color: hsl(198deg 14% 11.25%);
 	--background-color-contrast: hsl(198, 10%, 10%);
-	--background-color-contrast-more: hsl(228, 8%, 29%);
-	--background-color-graph: hsl(209, 10%, 4%);
+	--background-color-contrast-more: hsl(228deg 4.49% 30.55%);
+	--background-color-graph: hsl(209deg 7.76% 7.79%);
 
-	--background-color-inputs: hsl(198, 5%, 0%);
+	--background-color-inputs: hsl(197.19deg 15.27% 10.19%);
 
 	--font-color-primary: hsl(198, 5%, 100%);
-	--font-color-secondary: hsl(198, 5%, 0%);
-	--font-color-inputs: hsl(198, 5%, 100%);
+	--font-color-secondary: hsl(218.08deg 100% 66.68%);
+	--font-color-inputs: hsl(0deg 0% 100%);
 
 	--font-primary: 'Open Sans', sans-serif;
 	--font-secondary: monospace;
@@ -20,9 +20,9 @@
 	--scrollbar-color: 0, 0, 0;
 	--scrollbar-accent: 255, 255, 255;
 
-	--header-color: hsl(198, 10%, 6%);
-	--header-links-color: hsl(0, 0%, 100%);
-	--header-menu-icon-color: hsl(0, 0%, 100%);
+	--header-color: hsl(198deg 7.25% 15.48%);
+	--header-links-color: hsl(190.76deg 91.1% 90.05%);
+	--header-menu-icon-color: hsl(0deg 0% 100%);
 
 	--logo-filter: none;
 	--svg-filter: invert(1);
