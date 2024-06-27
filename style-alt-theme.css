@@ -1,6 +1,6 @@
 /* Primary color theme */
 :root {
-	-–accent-color: hsl(202deg 100% 85.77%);
+	--accent-color: hsl(204.84deg 24.07% 42.68% / 37%);
 	-–accent-color-contrast: hsl(0deg 0% 100%);
 
 	--background-color: hsl(198deg 14% 11.25%);
@@ -11,7 +11,7 @@
 	--background-color-inputs: hsl(197.19deg 15.27% 10.19%);
 
 	--font-color-primary: hsl(198, 5%, 100%);
-	--font-color-secondary: hsl(218.08deg 100% 66.68%);
+	--font-color-secondary: hsl(218.08deg 90.64% 85.63%);
 	--font-color-inputs: hsl(0deg 0% 100%);
 
 	--font-primary: 'Open Sans', sans-serif;
