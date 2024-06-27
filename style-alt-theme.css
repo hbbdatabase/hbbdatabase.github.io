@@ -26,6 +26,8 @@
 
 	--logo-filter: none;
 	--svg-filter: invert(1);
+	
+	--logo-font-size: 25px; /* Define the font size for the logo */
 }
 
 body.dark-mode {
