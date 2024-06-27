@@ -10,7 +10,7 @@
 
 	--background-color-inputs: hsl(198, 5%, 0%);
 
-	-font-color-primary: hsl(198, 5%, 100%);
+	--font-color-primary: hsl(198, 5%, 100%);
 	--font-color-secondary: hsl(198, 5%, 0%);
 	--font-color-inputs: hsl(198, 5%, 100%);
 
