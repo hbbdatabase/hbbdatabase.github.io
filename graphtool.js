@@ -853,9 +853,9 @@ function getCurveColor(id, o) {
     let th = 2*Math.PI*i;
     i += Math.cos(th-0.3)/24 + Math.cos(6*th)/32;
     let s = Math.sin(2*Math.PI*i);
-    return d3.hcl(360*((i + t/p2)%1),
+	return d3.hcl(360*((i + t/p2)%1) + (o * 30), // hue varies with “o”
                   88+30*(j%1 + 1.3*s - t/p3),
-                  36+22*(k%1 + 1.1*s + 6*t*(1-s)));
+                  64); //constant luminance
 }
 let getColor_AC = c => getCurveColor(c.p.id, c.o);
 let getColor_ph = (p,i) => getCurveColor(p.id, p.activeCurves[i].o);
