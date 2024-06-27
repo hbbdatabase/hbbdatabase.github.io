@@ -1,31 +1,31 @@
 /* Primary color theme */
 :root {
-    --accent-color: hsl(29, 80%, 55%);
-    --accent-color-contrast: hsl(32, 85%, 90%);
+	-–accent-color: hsl(202, 100%, 84%);
+	-–accent-color-contrast: hsl(198, 20%, 100%);
 
-    --background-color: hsl(223, 25%, 10%);
-    --background-color-contrast: hsl(223, 25%, 10%);
-    --background-color-contrast-more: hsl(0, 0%, 29%);
-    --background-color-graph: hsl(234, 14%, 7%);
+	--background-color: hsl(198, 10%, 6%);
+	--background-color-contrast: hsl(198, 10%, 10%);
+	--background-color-contrast-more: hsl(228, 8%, 29%);
+	--background-color-graph: hsl(209, 10%, 4%);
 
-    --background-color-inputs: hsl(234, 14%, 7%);
+	--background-color-inputs: hsl(198, 5%, 0%);
 
-    --font-color-primary: hsl(32, 85%, 90%);
-    --font-color-secondary: hsl(0, 0%, 0%);
-    --font-color-inputs: hsl(0, 0%, 100%);
+	-font-color-primary: hsl(198, 5%, 100%);
+	--font-color-secondary: hsl(198, 5%, 0%);
+	--font-color-inputs: hsl(198, 5%, 100%);
 
-    --font-primary: 'Open Sans', sans-serif;
-    --font-secondary: monospace;
+	--font-primary: 'Open Sans', sans-serif;
+	--font-secondary: monospace;
 
-    --scrollbar-color: 0,0,0;
-    --scrollbar-accent: 255,255,255;
+	--scrollbar-color: 0, 0, 0;
+	--scrollbar-accent: 255, 255, 255;
 
-    --header-color: hsl(223, 25%, 10%);
-    --header-links-color: hsl(45, 85%, 60%);
-    --header-menu-icon-color: hsl(0, 0%, 100%);
-    
-    --logo-filter: none;
-    --svg-filter: invert(0);
+	--header-color: hsl(198, 10%, 6%);
+	--header-links-color: hsl(0, 0%, 100%);
+	--header-menu-icon-color: hsl(0, 0%, 100%);
+
+	--logo-filter: none;
+	--svg-filter: invert(1);
 }
 
 body.dark-mode {
