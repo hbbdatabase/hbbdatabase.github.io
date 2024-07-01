@@ -4,14 +4,14 @@
 	-–accent-color-contrast: hsl(209deg 7.76% 7.79%);
 
 	--background-color: hsl(0deg 0% 12.59%);
-	--background-color-contrast: hsl(198deg 100% 50.16%);
-	--background-color-contrast-more: hsl(0deg 0% 54.79% / 38%);
-	--background-color-graph: hsl(0deg 0% 5.81% / 15%);
+	--background-color-contrast: hsl(198deg 42.45% 31.39%);
+	--background-color-contrast-more: hsl(0deg 0.43% 25.54%);
+	--background-color-graph: hsl(0deg 0% 5.81% / 19%);
 
 	--background-color-inputs: hsl(197.19deg 100% 7.07%);
 
-	--font-color-primary: hsl(198, 5%, 100%);
-	--font-color-secondary: hsl(218.08deg 90.64% 85.63%);
+	--font-color-primary: hsl(0deg 0% 100%);
+	--font-color-secondary: hsl(0deg 0% 100%);
 	--font-color-inputs: hsl(0deg 0% 100%);
 
 	--font-primary: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@
 	--scrollbar-color: 0, 0, 0;
 	--scrollbar-accent: 255, 255, 255;
 
-	--header-color: hsl(198deg 7.25% 15.48%);
+	--header-color: hsl(0deg 0% 12.23%);
 	--header-links-color: hsl(190.76deg 91.1% 90.05%);
 	--header-menu-icon-color: hsl(0deg 0% 100%);
 
@@ -30,10 +30,10 @@
 
 body.dark-mode {
     --accent-color: hsl(223deg 10.48% 10.48%);
-    --accent-color-contrast: hsl(223, 12%, 42%);
+    --accent-color-contrast: hsl(223deg 83.4% 28.98%);
 
-    --background-color: hsl(29, 73%, 93%);
-    --background-color-contrast: hsl(0, 0%, 90%);
+    --background-color: hsl(29deg 15.95% 91.66%);
+    --background-color-contrast: hsl(0deg 0% 90%);
     --background-color-contrast-more: hsl(223, 12%, 58%);
     --background-color-graph: hsl(29, 100%, 96%);
     
