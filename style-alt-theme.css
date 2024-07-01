@@ -1,12 +1,12 @@
 /* Primary color theme */
 :root {
-	--accent-color: hsl(204.84deg 100% 45.9%);
+	--accent-color: hsl(204.84deg 100% 54.09%);
 	-–accent-color-contrast: hsl(209deg 7.76% 7.79%);
 
 	--background-color: hsl(0deg 0% 12.59%);
-	--background-color-contrast: hsl(198, 10%, 10%);
-	--background-color-contrast-more: hsl(0deg 0% 54.79%);
-	--background-color-graph: hsl(0deg 0% 5.81%);
+	--background-color-contrast: hsl(198deg 100% 50.16%);
+	--background-color-contrast-more: hsl(0deg 0% 54.79% / 38%);
+	--background-color-graph: hsl(0deg 0% 5.81% / 15%);
 
 	--background-color-inputs: hsl(197.19deg 100% 7.07%);
 
@@ -29,7 +29,7 @@
 }
 
 body.dark-mode {
-    --accent-color: hsl(223, 25%, 10%);
+    --accent-color: hsl(223deg 10.48% 10.48%);
     --accent-color-contrast: hsl(223, 12%, 42%);
 
     --background-color: hsl(29, 73%, 93%);
