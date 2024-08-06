@@ -718,7 +718,16 @@
       {
         "name": "Maestro SE",
         "file": "Fat Freq Meastro Se"
+      },
+	  
+	   {
+        "name": "X HBB DEUCES",
+        "file": "DEUCE S"
       }
+	  
+	  
+	  
+	  
     ]
   },
   {
@@ -2193,10 +2202,7 @@
       },
      
 	  
-	   {
-        "name": "Sam 55",
-        "file": "DEUCE S"
-      },
+	
 	  
 	  
 	  
