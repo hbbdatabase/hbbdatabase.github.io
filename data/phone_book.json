@@ -2696,6 +2696,21 @@
       }
     ]
   },
+  
+   {
+    "name": "Sweear",
+    "phones": [
+      {
+        "name": "SR11",
+        "file": "Sweear SR11"
+      }
+    ]
+  },
+  
+  
+  
+  
+  
   {
     "name": "Tanchjim",
     "phones": [
@@ -3378,6 +3393,16 @@
         "name": "Rosemary 00",
         "file": "Yanyin Rosemary 00"
       },
+	  
+	   {
+        "name": "Carmen",
+        "file": "Yanyin Carmen"
+      },
+	  
+	  
+	 
+	  
+	  
       {
         "name": "Moonlight",
         "file": "Yanyin Moonlight"
