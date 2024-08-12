@@ -1950,9 +1950,15 @@
   {
     "name": "PMG AUDIO",
     "phones": [
-      {
+	
+	{
         "name": "APX",
         "file": "Pmg Audio Apx"
+      },
+		
+      {
+        "name": "APX SE",
+        "file": "Pmg Se"
       }
     ]
   },
@@ -2210,6 +2216,16 @@
         "name": "Sample 21",
         "file": "Sam21"
       },
+	  
+	   {
+        "name": "ziggy",
+        "file": "Ziggy"
+      }, 
+	  
+	  
+	  
+	  
+	  
       {
         "name": "Sam 6R",
         "file": "Fff F"
