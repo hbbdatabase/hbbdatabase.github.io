@@ -1,7 +1,7 @@
 /* Primary color theme */
 :root {
-	--accent-color: hsl(204.84deg 100% 54.09%);
-	-–accent-color-contrast: hsl(209deg 7.76% 7.79%);
+	--accent-color: #FFEB3B;
+	-–accent-color-contrast: hsl(209deg 5.37% 4.03%);
 
 	--background-color: hsl(0deg 0% 12.59%);
 	--background-color-contrast: hsl(198deg 42.45% 31.39%);
@@ -10,9 +10,9 @@
 
 	--background-color-inputs: hsl(197.19deg 100% 7.07%);
 
-	--font-color-primary: hsl(0deg 0% 100%);
-	--font-color-secondary: hsl(0deg 0% 100%);
-	--font-color-inputs: hsl(0deg 0% 100%);
+	--font-color-primary: hsl(0deg 0% 90.21%);
+	--font-color-secondary: hsl(0deg 100% 2.5%);
+	--font-color-inputs: hsl(0deg 0% 99.56%);
 
 	--font-primary: 'Roboto', sans-serif;
 	--font-secondary: Nunito;
@@ -40,7 +40,7 @@ body.dark-mode {
     --background-color-inputs: hsl(29, 100%, 97%);
     
     --font-color-primary: hsl(223, 25%, 10%);
-    --font-color-secondary: hsl(29, 100%, 100%);
+    --font-color-secondary: hsl(0deg 4.56% 4.12%);
     --font-color-inputs: hsl(0, 0%, 0%);
     
     --font-primary: 'Open Sans', sans-serif;
@@ -50,7 +50,7 @@ body.dark-mode {
     --scrollbar-accent: 0,0,0;
         
     --header-color: hsl(223, 25%, 10%);
-    --header-links-color: hsl(0, 0%, 0%);
+    --header-links-color: hsl(0deg 0% 0%);
     --header-menu-icon-color: hsl(0, 0%, 0%);
     
     --logo-filter: none;
