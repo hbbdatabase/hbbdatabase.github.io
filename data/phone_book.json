@@ -2574,6 +2574,40 @@
         "name": "EW200",
         "file": "Simgot Ew200"
       },
+	  
+	  
+	  {
+        "name": "EW300 X HBB",
+        "file": "Sim X Hbb"
+      },
+	  
+	  {
+        "name": "EW300",
+        "file": "Sim Ew300"
+      },
+	  
+	  {
+        "name": "EW300 DSP Reg cable",
+        "file": "Sim Ew300 Dsp No Cab"
+      },
+	  
+	   {
+        "name": "EW300 DSP Cable",
+        "file": "Ew Dsp"
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
       {
         "name": "LM",
         "file": "Sim LM"
