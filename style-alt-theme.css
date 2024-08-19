@@ -4,7 +4,7 @@
 	-–accent-color-contrast: hsl(209deg 7.76% 7.79%);
 
 	--background-color: hsl(0deg 0% 12.59%);
-	--background-color-contrast: hsl(198deg 42.45% 31.39%);
+	--background-color-contrast: hsl(53.88deg 96.83% 43.92%);
 	--background-color-contrast-more: hsl(0deg 0.43% 25.54%);
 	--background-color-graph: hsl(0deg 9.19% 8.92%);
 
@@ -21,7 +21,7 @@
 	--scrollbar-accent: 255, 255, 255;
 
 	--header-color: hsl(0deg 0% 12.23%);
-	--header-links-color: hsl(190.76deg 91.1% 90.05%);
+	--header-links-color: #FFEB3B;
 	--header-menu-icon-color: hsl(0deg 0% 100%);
 
 	--logo-filter: none;
