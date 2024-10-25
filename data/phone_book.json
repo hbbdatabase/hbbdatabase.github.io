@@ -3261,6 +3261,16 @@
         "name": "X HBB Kailua",
         "file": "55 K"
       },
+	  
+	  {
+        "name": "VIVACE",
+        "file": "Trip Vivace"
+      },
+	  
+	  
+	  
+	  
+	  
       {
         "name": "Lea'",
         "file": "Tripowin Lea"
@@ -3660,7 +3670,10 @@
       },
 	  
 	  
-	  
+	   {
+        "name": "Odyssey",
+        "file": "Zi Odyssey"
+      },
 	  
 	  
 	  
